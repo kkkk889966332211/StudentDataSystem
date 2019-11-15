@@ -1,5 +1,9 @@
 package com.bean;
 
+/*
+用户表
+*/
+
 public class User {
     private int id;
     private String username;
