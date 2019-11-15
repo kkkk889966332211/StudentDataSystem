@@ -1,5 +1,9 @@
 package com.bean;
 
+/*
+学生表
+ */
+
 public class Student {
     private int sno;
     private String name;
