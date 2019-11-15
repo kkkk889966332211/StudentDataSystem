@@ -1,7 +1,7 @@
 package com.bean;
 
 /*
-用户表
+用户
 */
 
 public class User {
