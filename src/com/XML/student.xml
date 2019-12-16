@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<a>
+    <DB>
+        <DBname>student</DBname>
+        <DBname>student_db2</DBname>
+    </DB>
+
+    <table>
+        <table_name>student</table_name>
+    </table>
+    <student>
+        <student_id>sid</student_id>
+        <student_name>sname</student_name>
+        <student_sdept>sdept</student_sdept>
+        <student_chinese>chinese</student_chinese>
+        <student_math>math</student_math>
+        <student_total>total</student_total>
+    </student>
+</a>

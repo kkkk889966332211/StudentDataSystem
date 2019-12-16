@@ -32,7 +32,7 @@ public class ConnectionDB1 {
     public static Connection getCon(){
         String url = DB_URL;
         String username = "root";
-        String password = "tiantian";
+        String password = "root";
         String driver_string = JDBC_DRIVER;
         Connection conn = null;
         try {

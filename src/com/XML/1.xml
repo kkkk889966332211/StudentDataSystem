@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DB>
+<DBname>student</DBname>
+
+<table1>
+    <table1_name>grade1</table1_name>
+    <table1_fileds>
+        <field>
+            <student_id>学号</student_id>
+            <student_id_type>int</student_id_type>
+        </field>
+        <field>
+            <student_name>姓名</student_name>
+            <student_name_type>varchar</student_name_type>
+        </field>
+        <field>
+            <student_sdept>院系</student_sdept>
+            <student_sdept_type>varchar</student_sdept_type>
+        </field>
+        <field>
+            <student_chinese>语文</student_chinese>
+            <student_chinese_type>int</student_chinese_type>
+        </field>
+        <field>
+            <student_math>数学</student_math>
+            <student_math_type>int</student_math_type>
+        </field>
+        <field>
+            <student_total>总成绩</student_total>
+            <student_total_type>int</student_total_type>
+        </field>
+    </table1_fileds>
+</table1>
+
+
+</DB>

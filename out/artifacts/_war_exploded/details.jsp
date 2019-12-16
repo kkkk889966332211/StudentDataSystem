@@ -63,7 +63,7 @@
             <th>总成绩</th>
             <th>删除操作</th>
             <th>修改操作</th>
-
+            <th>班级</th>
         </tr>
         </thead>
         <tbody align="center" valign="middle">
@@ -84,6 +84,7 @@
             <td><%=student.getTotal() %></td>
             <td><a href="DStudentServlet?sno=<%=student.getSno()%>">删除</a></td>
             <td><a href="Update.jsp?sno=<%=student.getSno()%>">修改</a> </td>
+            <td><%=studentDao.getClass(student.getSno())%></td>
         </tr>
         </tbody>
         <%} %>

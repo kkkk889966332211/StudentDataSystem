@@ -11,6 +11,7 @@ public class Student {
     private int Chinese;
     private int Math;
     private int total;
+    private String classes;
 
     public Student() {
         super();
@@ -62,5 +63,13 @@ public class Student {
 
     public void setSdept(String sdept) {
         this.sdept = sdept;
+    }
+
+    public String getClasses() {
+        return classes;
+    }
+
+    public void setClasses(String classes) {
+        this.classes = classes;
     }
 }
